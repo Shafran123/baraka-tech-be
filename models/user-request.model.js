@@ -5,7 +5,6 @@ const userRequestSchema = new mongoose.Schema({
 
     fname: {
          type : String,
-         unique: true,
          required: true,
     },
     lname:{
