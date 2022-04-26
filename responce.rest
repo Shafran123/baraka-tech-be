@@ -1,0 +1,22 @@
+# GET http://localhost:2400/api/v1/task/search-task?q=Fetch
+
+# POST http://localhost:2400/api/v1/user/register-admin-user
+# Content-Type: application/json
+
+# {
+# "name": "shafran",
+# "email": "s",
+# "contact_no" : "08888888888",
+# "password" : "test123"
+# }
+
+POST http://localhost:2400/api/v1/contact-us/submit-req
+Content-Type: application/json
+
+{
+"fname": "shafran@ieee.org",
+"lname" : "dsa",
+"email" : "text@gmail.com",
+"contact_no": "03841237612",
+"desc" : "this is forst"
+}
